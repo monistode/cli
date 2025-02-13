@@ -189,9 +189,9 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "monistode-assemblers"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e54002509db9c8519ea84fbda1cd87491a8f3087130cb8c9d10a5185b83f8b7f"
+checksum = "f7041cbd528c1fdc3a63837796af3660dcd885042eebef8b5befde493f27d14c"
 dependencies = [
  "bitvec",
  "combine",
@@ -201,9 +201,9 @@ dependencies = [
 
 [[package]]
 name = "monistode-binutils"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48d9e033444c8fac396f0d5c2fb01a0ee4aecf5d6a9c8cad9fa927ab925d6f78"
+checksum = "c1342d339a978fc5c0aa7a822176de4c5574a3ea77234de6237eafd988d35f1d"
 dependencies = [
  "bitvec",
  "convert_case",
@@ -222,9 +222,9 @@ dependencies = [
 
 [[package]]
 name = "monistode-macros"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9cb7041aad6b19a63d07021ae7579468d807c3e8ceb5930d3c15ca0d256cf7ad"
+checksum = "561f744724ba24b587726346d57009daedcf58e88c3e3d93cf1a11a42535a51a"
 dependencies = [
  "monistode-binutils",
  "proc-macro2",

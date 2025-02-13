@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use monistode_assemblers::stack;
+use monistode_assemblers::{risc, stack};
 use monistode_binutils::{Executable, ObjectFile, Serializable};
 use std::fs;
 use std::path::PathBuf;
@@ -46,6 +46,7 @@ fn assemble_file(input_path: &PathBuf, target: &str) -> Result<ObjectFile, Strin
     // Parse based on target
     match target {
         "stack" => stack::parse(&input).map_err(|e| format!("{}", e)),
+        "risc" => risc::parse(&input).map_err(|e| format!("{}", e)),
         _ => Err(format!("Unsupported target type: {}", target)),
     }
 }
